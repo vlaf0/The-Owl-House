@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}   
+
+.card{
+    width: 345px;
+    height:445;
+    background: peachpuff;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.card img   {
+    width: 100%;
+}
+.card p {
+ text-align: center;
+}
+
+
+.card p:nth-child(3){
+    color:red;
+    font-size: 1.5em;
+}

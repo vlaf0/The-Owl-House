@@ -1,0 +1,22 @@
+/* combinadores descencientes*/
+
+div p {
+    color: lime;
+}
+
+/* Hijo directo */
+
+div > div {
+    background: plum;
+}
+
+/* Elemento adyacente */
+div + section {
+     background: salmon;
+}
+
+/* General de hermanos */
+
+div ~ p {
+    color: red;
+}
